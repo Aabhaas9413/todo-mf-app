@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@todo-mf-app/shared-communication": ["libs/src/index.ts"],
+      "remote1/Routes": ["remote1/src/app/remote-entry/entry.routes.ts"],
+      "remote2/Routes": ["remote2/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
